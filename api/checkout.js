@@ -1,8 +1,8 @@
 const axios = require('axios');
 const crypto = require('crypto');
 
-const merchantCode = 'DS31489';
-const apiKey = 'c6d3addc9380e7e4e9a394bdf54d8f98';
+const merchantCode = process.env.DUITKU_MERCHANT_CODE;
+const apiKey = process.env.DUITKU_API_KEY;
 
 module.exports = async (req, res) => {
 
