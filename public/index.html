@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Iphone Store</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Iphone Store</h1>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#produk">Produk</a>
+<a href="#kontak">Kontak</a>
+
+</nav>
+
+<div id="cartBtn">
+
+🛒 <span id="cartCount">0</span>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h2>Iphone Series Flagship</h2>
+
+<p>
+Powerful. Premium. Stylish.
+</p>
+
+<button onclick="
+document.getElementById('produk')
+.scrollIntoView({
+behavior:'smooth'
+})
+">
+
+Belanja Sekarang
+
+</button>
+
+</section>
+
+<section id="produk">
+
+<h2>Produk Terbaru</h2>
+
+<div class="productsGrid">
+
+<!-- Iphone 13 Pro -->
+
+<div class="product">
+
+<img src="ip13.jpg">
+
+<h2>Iphone 13 Pro</h2>
+
+<p>128GB • White</p>
+
+<h3>Rp4.799.000</h3>
+
+<button onclick="
+addToCart(
+'iPhone 13 Pro',
+4799000,
+'ip13.jpg'
+)
+">
+
+Tambah ke Keranjang
+
+</button>
+
+</div>
+
+
+
+<!-- Iphone 14 -->
+
+<div class="product">
+
+<img src="https://www.digimap.co.id/cdn/shop/files/iPhone_14_Midnight_PDP_Image_Position-1A__WWEN_32b4f257-745d-4c25-a1de-f2baf24ad142.jpg?v=1717740688&width=1445">
+
+<h2>Iphone 14</h2>
+
+<p>128GB • Midnight</p>
+
+<h3>Rp6.999.000</h3>
+
+<button onclick="
+addToCart(
+'iPhone 14',
+6999000,
+'https://www.digimap.co.id/cdn/shop/files/iPhone_14_Midnight_PDP_Image_Position-1A__WWEN_32b4f257-745d-4c25-a1de-f2baf24ad142.jpg?v=1717740688&width=1445'
+)
+">
+
+Tambah ke Keranjang
+
+</button>
+
+</div>
+
+<!-- Iphone 15 -->
+
+<div class="product">
+
+<img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/MTA-134607074/apple_iphone_15_full01_l0gxpl3z.jpg">
+
+<h2>Iphone 15</h2>
+
+<p>128GB • Blue</p>
+
+<h3>Rp8.999.000</h3>
+
+<button onclick="
+addToCart(
+'iPhone 15',
+8999000,
+'https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/MTA-134607074/apple_iphone_15_full01_l0gxpl3z.jpg'
+)
+">
+
+Tambah ke Keranjang
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<div id="cartModal" class="hidden">
+
+<h2>Keranjang Belanja</h2>
+
+<div id="cartItems"></div>
+
+<h3 id="totalPrice"></h3>
+
+<div id="checkoutContainer"></div>
+
+<button onclick="closeCart()">
+
+Tutup
+
+</button>
+
+<div id="qrSection"></div>
+
+</div>
+
+<footer id="kontak">
+
+<h3>Iphone Store</h3>
+
+<p>
+Official Iphone Store Indonesia
+</p>
+
+<p>
+📱 +62 812-3386-2127
+</p>
+
+<p>
+© 2026 Iphone Store
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
