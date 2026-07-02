@@ -232,7 +232,7 @@ total += item.price * item.qty;
 try{
 
 const response =
-await fetch('/checkout',{
+await fetch('/api/checkout',{
 
 method:'POST',
 
