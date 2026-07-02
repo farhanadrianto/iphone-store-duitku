@@ -37,8 +37,8 @@ module.exports = async (req, res) => {
                 productDetails: 'Pembelian iPhone',
                 email: 'test@test.com',
                 customerVaName: 'Customer',
-                callbackUrl: 'https://YOUR_VERCEL_URL/api/callback',
-                returnUrl: 'https://YOUR_VERCEL_URL',
+                callbackUrl: 'https://iphone-store-duitku.vercel.app/api/callback',
+                returnUrl: 'https://iphone-store-duitku.vercel.app',
                 signature: signature
             }
         );
