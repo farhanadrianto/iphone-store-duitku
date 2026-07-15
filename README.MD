@@ -32,7 +32,7 @@ iPhone Store adalah aplikasi web e-commerce sederhana yang dibangun menggunakan 
 ## 📂 Struktur Project
 
 ```text
-iphone-store/
+iphone-store-duitku/
 │
 ├── api/
 │   └── checkout.js        # Endpoint checkout
@@ -75,7 +75,7 @@ git clone https://github.com/farhanadrianto/iphone-store-duitku.git
 ### 2. Masuk ke Folder Project
 
 ```bash
-cd iphone-store
+cd iphone-store-duitku
 ```
 
 ### 3. Install Dependency
