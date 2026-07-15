@@ -69,7 +69,7 @@ iphone-store/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/iphone-store.git
+git clone https://github.com/farhanadrianto/iphone-store-duitku.git
 ```
 
 ### 2. Masuk ke Folder Project
